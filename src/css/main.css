@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #d9dddc;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: white;
+}
+
+.color-active {
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+}
+
+.navbar .nav-link a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+.navbar .nav-link a:hover {
+    color: var(--primary-color);
+}
+
+.navbar .nav-link .active:hover {
+    color: var(--primary-color);
+}
+
+.active {
+    color: white;
+    padding: 5px;
+    border-bottom: solid 3px var(--primary-color);
+}
+
+/* Footer */
+footer {
+    padding: 2% 0 1% 0;
+    width: 100%;
+
+  }
+  
+
+/* Hero Section */
+.hero {
+    padding: 14%;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 20% 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 20% 3%;
+    }
+}
+
+.hero h2 {
+    font-weight: 300;
+}
+
+.hero h2 span {
+    font-weight: 550;
+}
+
+.hero img {
+    width: 60%;
+    background-color: var(--primary-color);
+    border-radius: 100px;
+}
+
+.hero .btn-hero {
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    margin-right: 10px;
+}
+
+.hero .btn-hero:hover {
+    background-color: white;
+    border: solid 1px black;
+}
+
+/* About Section */
+@media (max-width: 768px) {
+    .about{
+        margin-top: 20px;
+    }
+    .about img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about{
+        margin-top: 20px;
+    }
+    .about img {
+        width: 100%;
+    }
+}
+
+.about h1 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.element {
+    position: relative;
+    display: inline-block;
+}
+
+.element::after {
+    content: '';
+    display: block;
+    width: 400px;
+    border-bottom: solid 3px var(--primary-color);
+}
+
+/* Portofolio Section */
+
+
+.portofolio h1 {
+    padding-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.detail-portofolio {
+    margin-top: 100px;
+}
+
+/* About Page */
+.about{
+    padding: 10%;
+    margin-bottom: 27%;
+}
+
+.about img{
+    background-color: var(--primary-color);
+    border-radius: 100px 0 100px 0;
+}
