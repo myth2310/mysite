@@ -42,7 +42,7 @@ export const PortofolioPage = () => {
   return (
     <div className="detail-portofolio">
       <Container>
-        <img src={portfolioItem.image} alt={portfolioItem.title} className="w-full mb-6 rounded-lg shadow-lg" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+        <img src={portfolioItem.image} alt={portfolioItem.title} className="portofolio-image w-full mb-6 rounded-lg shadow-lg" />
         <h3 className="text-3xl font-bold mb-2 mt-3">{portfolioItem.title}</h3>
         <Badge bg={getProgressColor(portfolioItem.progress)} className="mb-4">{portfolioItem.progress}</Badge>
         <p className="text-lg mb-3">{portfolioItem.desc}</p>

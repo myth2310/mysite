@@ -12,11 +12,9 @@ const AboutPage = () => {
                             <img src={HeroImage} alt="Hero"/>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <h1 className="mb-4">About Me</h1>
+                            <h1 className="MB-1">About Me</h1>
                             <p className="text-muted">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aut, possimus eius
-                                doloremque optio animi, pariatur eveniet ratione quos voluptatum voluptate dolore.
-                                Velit ipsam ad, delectus reprehenderit voluptas itaque porro.
+                                Perkenalkan, nama saya Mifta. Saya lulusan Politeknik Harapan Bersama jurusan Teknik Informatika dan sebagai Web Developer. Saya familiar dengan framework Laravel dan Flask, serta sangat tertarik dan menyukai project berbasis AI.
                             </p>
                         </Col>
                     </Row>

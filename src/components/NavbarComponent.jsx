@@ -5,6 +5,7 @@ import { navLinks } from '../data/index'
 import { NavLink } from 'react-router';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Icon from '../../public/icon.png'
 
 
 export const NavbarComponent = () => {
@@ -27,7 +28,7 @@ export const NavbarComponent = () => {
     <Navbar expand="lg" className={`fixed-top ${changeColor ? "color-active" : ""}`}>
 
       <Container>
-        <Navbar.Brand href="/">MySite</Navbar.Brand>
+        <Navbar.Brand href="/"><img className='image-brand' src={Icon} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
